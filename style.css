@@ -7,6 +7,8 @@ html {
   border-color: rgb(233, 91, 91);
   margin: 0 0 5vh 0;
   padding: 1vh 0 0 0;
+  align-content: center;
+  justify-content: center;
   }
 
 .Caption h5{
@@ -29,9 +31,10 @@ html {
 }
 
 .CardTitle h6{
-  font-size: 26px;
+  font-size: 2vw;
   font-weight: bolder;
 }
+
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,7 +55,6 @@ h2 {
   margin: 40px 0 0px;
 }
 
-
 /* Carousel */
 .col-center {
   margin: 0 auto;
@@ -67,12 +69,12 @@ h2 {
   font-size: 14px;
   text-align: center;
   overflow: hidden;
-  min-height: 150px;
-}
+  min-height: 40vh;
+  }
 
 .carousel .testimonial {
   padding: 15px 0 5px;
-  font-size: 28px;
+  font-size: 1.5vw;
 }
 
 .carousel .overview {	
@@ -109,6 +111,11 @@ h2 {
   height: 30px;
   margin: 1px 3px;
   border-radius: 50%;
+}
+
+.container h2{
+  font-size: 3vw;
+  margin-top: 2vw;
 }
 
 .carousel-indicators li {	
@@ -159,6 +166,8 @@ h2 {
 .Button.Button-background-slide{
   z-index: 1;
 }
+
+/*END BUTTON */
 
 .content h3{
   text-transform: uppercase;
@@ -221,16 +230,6 @@ h2 {
   margin-right: 500px;
 }
 
-.general{
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #ffffff;
-  font-weight: 200;
-  text-align: justify;
-  margin-top: 20px;
-  font-size: 27px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .general1{
   margin-left: 160px;
@@ -254,13 +253,6 @@ h2 {
   color: #ffffff;
 }
 
-.mycol{
-  margin-left: 0vw;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
   .showcase-area{
   background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/Concrete.jpg');
@@ -270,6 +262,8 @@ h2 {
   text-align: center;
   margin-top: 0px;
 }
+
+
 
   .panel{
   background-size: cover;
@@ -282,6 +276,8 @@ h2 {
   .panel2{
   background-color: rgba(224, 37, 37, 0.418);
   margin-top: 0px;
+  margin-left: 0;
+  margin-right: 0;
   padding-bottom: 5px;
 }
 
@@ -290,7 +286,6 @@ h2 {
   font-size: 27px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
 }
-
 
 .processtext{
   font-size: 1.7vw;
@@ -314,16 +309,6 @@ h2 {
     font-size:13px;
   }
 
-  .commercialicon{
-    height: 200px;
-    width: 330px;
-  }
-  
-  .homerenovation{
-    height: 200px;
-    width: 200px;
-  }
-
   .build{
     height: 75px;
     width: 75px;
@@ -333,15 +318,6 @@ h2 {
     margin-bottom: 15px;
   }
 
-  .build1{
-    height: 75px;
-    width: 75px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
-  
   .third-text{
     margin-top: 0.5vh;
     margin-left: 0px;
@@ -400,6 +376,15 @@ h2 {
       font-size: 20px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
+    .carousel-item {
+      color: #999;
+      font-size: 18px;
+      text-align: center;
+      overflow: hidden;
+      min-height: 32vh;
+      }
+    
   }
 
 @media (max-width: 1450px) {
@@ -420,6 +405,18 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
+  }
+
+  .container h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
   }
 
   .Caption h5{
@@ -472,8 +469,11 @@ h2 {
   }
   
   .CardTitle h6{
-    font-size: 9px;
+    font-size: 1.5vw;
     font-weight: bolder;
+    position: static;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 
   .CardPara p{
@@ -492,7 +492,7 @@ h2 {
     
     .carousel .testimonial{
       padding: 0px;
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
@@ -507,6 +507,20 @@ h2 {
       font-size: 25px;
     }
 
+    .photo-area{
+      height: 35vh;
+      justify-content: center;
+    }
+
+    .house{
+      height: 35vh;
+      width: 100%;
+      align-content: center;
+      overflow: hidden;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+    
     .Button{
       margin-top: 25px;
       color: rgb(247, 247, 247);
@@ -549,18 +563,6 @@ h2 {
       font-size:9px;
     }
 
-    .general{
-      margin-left: 50px;
-      margin-right: 50px;
-      color: #ffffff;
-      font-weight: 200;
-      text-align: justify;
-      margin-top: 0px;
-      margin-bottom: 25px;
-      font-size: 14px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
       .general1{
         margin-left: 8px;
         margin-right: 5px;
@@ -584,27 +586,22 @@ h2 {
         padding-right: 5px;
     }
 
+    .carousel-item {
+      color: #999;
+      font-size: 14px;
+      text-align: center;
+      overflow: hidden;
+      min-height: 32vh;
+      }
+    
+
       .build{
         height: 55px;
         width: 55px;
-    }
-      
-      .build1{
-        height: 30px;
-        width: 30px;
-    }      
-
+    }     
       .Button{
         margin-top: 0px;
     }
-
-      .processtext{
-        font-size: 12px;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 0px;
-    }
-      
       .showcase-area{
         background-size: cover;
         background-color: rgba(184, 96, 255, 0.897);
@@ -620,11 +617,6 @@ h2 {
         height: 45px;
         width: 45px; 
       }
-
-      .build1{
-        height: 20px;
-        width: 20px;
-      }
     }
 
       .content-area{
@@ -636,6 +628,26 @@ h2 {
 
   .content{
     text-align: center;
+}
+
+/*TEST*/
+
+@media (min-width: 500px){
+.house{
+  height: 0vh;
+  display: none;
+  width: 100%;
+  align-content: center;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.photo-area{
+  height: 0vh;
+  justify-content: center;
+}
+
 }
 
 .Caption h1{
