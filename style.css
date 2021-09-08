@@ -36,7 +36,7 @@ html {
 }
 
 
-body {
+#body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 40px 0;
   display: flex;
@@ -226,10 +226,19 @@ h2 {
   color: #000000;
 }
 
-.footer{
-  margin-right: 500px;
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e9e9e9;
+  margin-top: auto;
+  margin-left: 0px;
 }
 
+.footer1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
 
 .general1{
   margin-left: 160px;
@@ -387,6 +396,20 @@ h2 {
     
   }
 
+  .Button2{
+    margin-top: 15px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(247, 104, 104);
+    border: none;
+    text-transform: uppercase;
+    padding: 4px 9px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+
 @media (max-width: 1450px) {
   .content h3{
     font-size: 70px;
@@ -469,7 +492,7 @@ h2 {
   }
   
   .CardTitle h6{
-    font-size: 1.5vw;
+    font-size: 10px;
     font-weight: bolder;
     position: static;
     margin: 0 0 0 0;
@@ -492,16 +515,10 @@ h2 {
     
     .carousel .testimonial{
       padding: 0px;
-      font-size: 12px;
+      font-size: 16px;
     }
   }
-
-  @media (min-width: 991px) {
-    .flowchart1 {
-      display: none;
-    }
-  }
-
+ 
   @media (max-width: 800px) {
     .first-text{
       font-size: 25px;
@@ -535,7 +552,7 @@ h2 {
       position: relative;
       --accent-color: rgb(43, 75, 100);
     }
-    
+
     .content h3{
       text-transform: uppercase;
       font-size: 45px;
@@ -604,13 +621,27 @@ h2 {
     }
       .showcase-area{
         background-size: cover;
-        background-color: rgba(184, 96, 255, 0.897);
+        background-color: rgba(218, 78, 73, 0.897);
         height: 65vh;
         padding: 0px;
         text-align: center;
         margin-top: 0px;
     }
   }
+
+  @media (max-width: 600px){
+    .carousel .testimonial{
+      padding: 0px;
+      font-size: 12px;
+    }
+
+    .footer1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 10px;
+      margin-bottom: 0px;
+    }
+    
+    }
 
     @media (max-width: 281px){
       .build{
@@ -630,9 +661,7 @@ h2 {
     text-align: center;
 }
 
-/*TEST*/
-
-@media (min-width: 410px){
+@media (min-width: 500px){
 .house{
   height: 0vh;
   display: none;
@@ -691,14 +720,6 @@ h2 {
   width: 200px;
   height: 100%;
   object-fit: scale-down;
-}
-
-.myrow
-{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
 }
 
 .img-fluid{
