@@ -632,7 +632,7 @@ h2 {
 
 /*TEST*/
 
-@media (min-width: 500px){
+@media (min-width: 410px){
 .house{
   height: 0vh;
   display: none;
