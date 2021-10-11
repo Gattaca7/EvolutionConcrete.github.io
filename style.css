@@ -11,15 +11,10 @@ html{
   justify-content: center;
 }
 
-
-
-
 #story{
   padding-bottom: 2.5vw;
-  background-color: rgba(255, 97, 97, 0.883);
+  background-image: linear-gradient(45deg, rgb(184, 6, 6), rgb(255, 131, 131));
 }
-
-
 
 /* Our Work */
 .our_work{
@@ -159,7 +154,7 @@ h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   transition: color 0.5s linear;
   position: relative;
-  --accent-color: rgb(43, 75, 100);
+  --accent-color: rgb(0, 0, 0);
 }
   
 .Button.Button-background-slide::before {
@@ -304,7 +299,7 @@ h2{
 
 #values{
   padding-bottom: 2.5vw;
-  background-color: rgba(255, 97, 97, 0.883);
+  background-image: linear-gradient(45deg, rgb(184, 6, 6), rgb(255, 131, 131));
 }
 
 .first-text{
@@ -470,8 +465,7 @@ h2{
     color: black;
   }
 
-  h2
-  {
+  h2{
     font-size: 30px;
     text-transform: uppercase;
     margin-top: 40px;
@@ -480,7 +474,7 @@ h2{
     font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: black 
+    color: black; 
   }
 
   .third-text{
@@ -561,7 +555,7 @@ h2{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       transition: color 0.5s linear;
       position: relative;
-      --accent-color: rgb(43, 75, 100);
+      --accent-color: rgb(0, 0, 0);
     }
 
     .content h1{
