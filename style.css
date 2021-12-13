@@ -250,7 +250,7 @@ h2{
   margin-left: 160px;
   margin-right: 160px;
   color: #333333;
-  text-align: justify;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 2.5vw;
   font-size: 24px;
@@ -391,7 +391,7 @@ h2{
       margin-right: 15px;
       color: #444444;
       font-weight: 200;
-      text-align: justify;
+      text-align: center;
       margin-top: 0px;
       margin-bottom: 2.0vw;
       font-size: 20px;
@@ -588,7 +588,7 @@ h2{
         margin-right: 5px;
         color: #414141;
         font-weight: 200;
-        text-align: justify;
+        text-align: center;
         margin-top: 10px;
         margin-bottom: 1.5vw;
         font-size: 14px;
